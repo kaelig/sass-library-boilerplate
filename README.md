@@ -1,6 +1,6 @@
 # Sass Project Boilerplate [![Build Status](https://travis-ci.org/kaelig/sass-project-boilerplate.svg?branch=master)](https://travis-ci.org/kaelig/sass-project-boilerplate)
 
-The Sass Project Boilerplate contains the elements needed to publish a well tested Sass mixin or function, and make it accessible to npm, Bower, [sache](http://www.sache.in/), and [Eyeglass](https://github.com/sass-eyeglass/eyeglass) users.
+The Sass Project Boilerplate is a set of files that are a good base to publish well documented and tested Sass libraries, micro-frameworks, mixins and functions.
 
 ## Quick Start
 
