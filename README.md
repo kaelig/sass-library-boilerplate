@@ -5,8 +5,9 @@ The Sass Project Boilerplate is a set of files that are a good base to publish w
 ## Quick Start
 
 1. Download or clone this repository (or fork it)
-2. Replace all occurrences of "sass-project", "Sass Project", "user/" to your own project and user names
+2. Replace all occurrences of "sass-project", "Sass Project", "user/" to your own project and user names, and remove this first part of the README
 3. Start coding!
+4. Push the code to a different repository
 
 ## Features
 
