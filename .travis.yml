@@ -1,3 +1,9 @@
+# Travis CI is a Continuous Integration environment that helps detecting problems
+# and test failures at each push and pull request automatically.
+# If you are new to Travis CI, here is a guide that should help you setting it up:
+# https://docs.travis-ci.com/user/for-beginners
+# If you're comfortable with CI environments, you can link your GitHub account to Travis at:
+# https://travis-ci.org/auth
 language: node_js
 node_js:
   - "4"
