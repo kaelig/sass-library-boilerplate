@@ -1,0 +1,40 @@
+{
+  "name": "sass-project",
+  "version": "1.0.0",
+  "description": "Sass Project does that thing",
+  "keywords": [
+    "sass",
+    "eyeglass-module"
+  ],
+  "license": "SEE LICENSE IN README.md",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:user/sass-project.git"
+  },
+  "author": "ACME Inc.",
+  "scripts": {
+    "test": "./test/spec.rb",
+    "generate-doc": "./node_modules/.bin/sassdoc index.scss sassdoc --config=.sassdocrc && echo 'Documentation successfully generated in sassdoc/index.html'",
+    "deploy-doc": "git add sassdoc && git commit -m 'Compile SassDoc' --allow-empty && git push origin :gh-pages && git subtree push --prefix sassdoc origin gh-pages && echo 'Documentation successfully deployed to http://user.github.io/sass-project/'"
+  },
+  "files": [
+    "index.scss",
+    "README.md"
+  ],
+  "main": "index.scss",
+  "ignore": [
+    "test",
+    "sassdoc",
+    "**/.*",
+    "assets"
+  ],
+  "eyeglass": {
+    "needs": "^0.8.2",
+    "sassDir": "./index.scss",
+    "exports": false
+  },
+  "devDependencies": {
+    "node-sass": "^3.7.0",
+    "sassdoc": "^2.1.20"
+  }
+}

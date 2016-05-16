@@ -1,0 +1,9 @@
+{
+  "package": {
+    "title": "Sass Project",
+    "name": "sass-project",
+    "homepage": "https://github.com/user/sass-project",
+    "description": "Sass Project does that thing"
+  },
+  "autofill": "false"
+}
