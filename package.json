@@ -13,7 +13,7 @@
   },
   "author": "ACME Inc.",
   "scripts": {
-    "test": "./test/spec.rb",
+    "test": "mocha test/*test.js",
     "generate-doc": "./node_modules/.bin/sassdoc index.scss sassdoc --config=.sassdocrc && echo 'Documentation successfully generated in sassdoc/index.html'",
     "deploy-doc-first-time": "git add sassdoc && git commit -m 'Compile SassDoc' --allow-empty && git subtree push --prefix sassdoc origin gh-pages && echo 'Documentation successfully deployed to http://user.github.io/sass-project/'",
     "deploy-doc": "git add sassdoc && git commit -m 'Compile SassDoc' --allow-empty && git push origin :gh-pages && git subtree push --prefix sassdoc origin gh-pages && echo 'Documentation successfully deployed to http://user.github.io/sass-project/'"
@@ -35,6 +35,8 @@
     "exports": false
   },
   "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
     "node-sass": "^3.7.0",
     "sassdoc": "^2.1.20"
   }
