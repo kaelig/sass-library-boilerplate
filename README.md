@@ -12,7 +12,7 @@ The Sass Project Boilerplate contains the elements needed to publish a well test
 
 - Pre-filled README, package.json, sache.json
 - [SassDoc](http://sassdoc.com/) configuration, with tasks that publish a beautiful documentation to GitHub Pages
-- Unit tests with examples
+- [Unit tests](https://github.com/kaelig/sass-project-boilerplate/tree/master/test) with examples
 - Continuous integration with [Travis](https://travis-ci.org/)
 - [`.editorconfig`](http://editorconfig.org/) for consistent whitespace/tabs across files
 - [Eyeglass](https://github.com/sass-eyeglass/eyeglass)-enabled
