@@ -62,6 +62,10 @@ npm run generate-doc
 Generate & deploy the documentation to <https://user.github.io/sass-project/>:
 
 ```bash
+# First time deploying the documentation?
+npm run deploy-doc-first-time
+
+# Any other time:
 npm run deploy-doc
 ```
 
