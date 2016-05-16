@@ -1,9 +1,6 @@
-----
-
 # Sass Project Boilerplate [![Build Status](https://travis-ci.org/kaelig/sass-project.svg?branch=master)](https://travis-ci.org/kaelig/sass-project)
 
 The Sass Project boilerplate contains the elements needed to publish a well tested Sass mixin or function, and make it accessible to npm, Bower, [sache](http://www.sache.in/), and [Eyeglass](https://github.com/sass-eyeglass/eyeglass) users.
-
 
 ## Quick Start
 
@@ -16,12 +13,13 @@ The Sass Project boilerplate contains the elements needed to publish a well test
 - Pre-filled README, package.json, sache.json
 - [SassDoc](http://sassdoc.com/) configuration, with tasks that publish a beautiful documentation to GitHub Pages
 - Unit tests with examples
-- .editorconfig for consistent whitespace/tabs across files
+- Continuous integration with [Travis](https://travis-ci.org/)
+- [`.editorconfig`](http://editorconfig.org/) for consistent whitespace/tabs across files
 - [Eyeglass](https://github.com/sass-eyeglass/eyeglass)-enabled
 
 ----
 
-<!-- Remove everything above -->
+<!-- Remove everything above, and edit the  -->
 
 # Sass Project [![Build Status](https://travis-ci.org/user/sass-project.svg?branch=master)](https://travis-ci.org/user/sass-project)
 

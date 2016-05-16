@@ -4,9 +4,9 @@ $project-default-message: 'Default message' !default;
 
 /// Project
 ///
-/// @require $project-settings
+/// @require $project-default-message
 ///
-/// @param {String} $message
+/// @param {String} $message [$project-default-message] - A great message
 @mixin project($message: $project-default-message) {
   @if (type-of($message) != 'string') {
     @error 'The parameter passed to project() must be a String. Good: project('foo') / Bad: project(5).';
