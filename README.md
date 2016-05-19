@@ -15,6 +15,7 @@ The Sass Library Boilerplate is a set of files that are a good base to publish w
 - [SassDoc](http://sassdoc.com/) configuration, with tasks that publish a beautiful documentation to GitHub Pages
 - [Unit tests](https://github.com/kaelig/sass-library-boilerplate/tree/master/test) with examples
 - Continuous integration with [Travis](https://travis-ci.org/)
+- [A changelog](https://github.com/kaelig/sass-library-boilerplate/blob/master/CHANGELOG.md)
 - [`.editorconfig`](http://editorconfig.org/) for consistent whitespace/tabs across files
 - [Eyeglass](https://github.com/sass-eyeglass/eyeglass)-enabled
 
