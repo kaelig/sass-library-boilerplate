@@ -14,11 +14,11 @@ describe "Compiling files with syntax errors" do
   end
 
   it "should throw a useful error message" do
-    find "The parameter passed to project() must be a String.", stderr
+    find "The parameter passed to library() must be a String.", stderr
   end
 end
 
-describe "Calling project()" do
+describe "Calling library()" do
   it "should output the default message" do
     find ".default{content:\"Default message"
   end

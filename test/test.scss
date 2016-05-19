@@ -1,15 +1,15 @@
 @import '../index';
 
 .default {
-  @include project();
+  @include library();
 }
 
 .passing-message {
-  @include project($message: 'passed message');
+  @include library($message: 'passed message');
 }
 
-$project-default-message: 'Overridden message';
+$library-default-message: 'Overridden message';
 
 .override {
-  @include project();
+  @include library();
 }

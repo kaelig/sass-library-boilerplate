@@ -1,7 +1,7 @@
 {
-  "name": "sass-project",
+  "name": "sass-library",
   "version": "1.0.0",
-  "description": "Sass Project does that thing",
+  "description": "Sass Library does that thing",
   "keywords": [
     "sass",
     "eyeglass-module"
@@ -9,14 +9,14 @@
   "license": "SEE LICENSE IN README.md",
   "repository": {
     "type": "git",
-    "url": "git@github.com:user/sass-project.git"
+    "url": "git@github.com:user/sass-library.git"
   },
   "author": "ACME Inc.",
   "scripts": {
     "test": "./test/spec.rb",
-    "generate-doc": "./node_modules/.bin/sassdoc index.scss sassdoc --config=.sassdocrc && echo 'Documentation successfully generated in sassdoc/index.html'",
-    "deploy-doc-first-time": "git add sassdoc && git commit -m 'Compile SassDoc' --allow-empty && git subtree push --prefix sassdoc origin gh-pages && echo 'Documentation successfully deployed to http://user.github.io/sass-project/'",
-    "deploy-doc": "git add sassdoc && git commit -m 'Compile SassDoc' --allow-empty && git push origin :gh-pages && git subtree push --prefix sassdoc origin gh-pages && echo 'Documentation successfully deployed to http://user.github.io/sass-project/'"
+    "sassdoc": "./node_modules/.bin/sassdoc index.scss sassdoc --config=.sassdocrc && echo 'Documentation successfully generated in sassdoc/index.html'",
+    "sassdoc-deploy-first-time": "git add sassdoc && git commit -m 'Compile SassDoc' --allow-empty && git subtree push --prefix sassdoc origin gh-pages && echo 'Documentation successfully deployed to http://user.github.io/sass-library/'",
+    "sassdoc-deploy": "git add sassdoc && git commit -m 'Compile SassDoc' --allow-empty && git push origin :gh-pages && git subtree push --prefix sassdoc origin gh-pages && echo 'Documentation successfully deployed to http://user.github.io/sass-library/'"
   },
   "files": [
     "index.scss",

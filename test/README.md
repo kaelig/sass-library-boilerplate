@@ -2,7 +2,7 @@
 
 ## Unit tests
 
-Unit tests check that the internals of this project work correctly.
+Unit tests check that the internals of this library work as expected.
 
 For example:
 

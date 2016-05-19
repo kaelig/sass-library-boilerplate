@@ -1,15 +1,15 @@
 /// Settings
 /// @type String
-$project-default-message: 'Default message' !default;
+$library-default-message: 'Default message' !default;
 
-/// Project
+/// Library
 ///
-/// @require $project-default-message
+/// @require $library-default-message
 ///
-/// @param {String} $message [$project-default-message] - A great message
-@mixin project($message: $project-default-message) {
+/// @param {String} $message [$library-default-message] - A great message
+@mixin library($message: $library-default-message) {
   @if (type-of($message) != 'string') {
-    @error 'The parameter passed to project() must be a String. Good: project('foo') / Bad: project(5).';
+    @error 'The parameter passed to library() must be a String. Good: library('foo') / Bad: library(5).';
   }
 
   content: $message;

@@ -1,5 +1,5 @@
 @import '../index';
 
 .not-a-string {
-  @include project(5);
+  @include library(5);
 }
