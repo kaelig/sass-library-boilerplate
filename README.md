@@ -4,7 +4,7 @@ The Sass Library Boilerplate is a set of files that are a good base to publish w
 
 ## Quick Start
 
-1. [Download](https://github.com/kaelig/sass-library-boilerplate/archive/master.zip) or clone this repository (or fork it)
+1. [Download](https://github.com/kaelig/sass-library-boilerplate/archive/master.zip), clone or fork this repository
 2. Replace all occurrences of "sass-library", "Sass Library", "user/"… to your own library and user names.
 3. Also, remove this first part of the README
 
