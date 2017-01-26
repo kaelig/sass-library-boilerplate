@@ -1,4 +1,4 @@
-# Sass Library Boilerplate [![Build Status](https://travis-ci.org/kaelig/sass-library-boilerplate.svg?branch=master)](https://travis-ci.org/kaelig/sass-library-boilerplate)
+# Sass Library Boilerplate [![Build Status](https://travis-ci.org/kaelig/sass-library-boilerplate.svg?branch=master)](https://travis-ci.org/kaelig/sass-library-boilerplate) [![Greenkeeper badge](https://badges.greenkeeper.io/kaelig/sass-library-boilerplate.svg)](https://greenkeeper.io/)
 
 The Sass Library Boilerplate is a set of files that are a good base to publish well documented and tested Sass libraries, micro-frameworks, mixins and functions.
 
