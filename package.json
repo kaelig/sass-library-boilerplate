@@ -9,14 +9,14 @@
   "license": "SEE LICENSE IN README.md",
   "repository": {
     "type": "git",
-    "url": "git@github.com:user/sass-library.git"
+    "url": "git@github.com:Vertexo/sass-library-boilerplate.git"
   },
   "author": "ACME Inc.",
   "scripts": {
     "test": "./test/spec.rb",
     "sassdoc": "./node_modules/.bin/sassdoc index.scss sassdoc --config=.sassdocrc && echo 'Documentation successfully generated in sassdoc/index.html'",
-    "sassdoc-deploy-first-time": "git add sassdoc && git commit -m 'Compile SassDoc' --allow-empty && git subtree push --prefix sassdoc origin gh-pages && echo 'Documentation successfully deployed to http://user.github.io/sass-library/'",
-    "sassdoc-deploy": "git add sassdoc && git commit -m 'Compile SassDoc' --allow-empty && git push origin :gh-pages && git subtree push --prefix sassdoc origin gh-pages && echo 'Documentation successfully deployed to http://user.github.io/sass-library/'"
+    "sassdoc-deploy-first-time": "git add sassdoc && git commit -m 'Compile SassDoc' --allow-empty && git subtree push --prefix sassdoc origin gh-pages && echo 'Documentation successfully deployed to http://Vertexo.github.io/sass-library-boilerplate/'",
+    "sassdoc-deploy": "git add sassdoc && git commit -m 'Compile SassDoc' --allow-empty && git push origin :gh-pages && git subtree push --prefix sassdoc origin gh-pages && echo 'Documentation successfully deployed to http://Vertexo.github.io/sass-library-boilerplate/'"
   },
   "files": [
     "index.scss",
